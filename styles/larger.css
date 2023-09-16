@@ -6,4 +6,11 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
+	main{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+	main h2{
+		grid-column: 1 / span;
+	}
 }
