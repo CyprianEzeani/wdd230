@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+     min-width: 767px;
+	margin: 0 auto;
+}
+html {
+    background-color: rgba(243, 248, 248, 0.911);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}
+.card1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    text-align: left;
+    width: 300px;
+    height: 200px;
+    background-color: #e9f863; 
+    margin-right: 20px; 
+}
+  .card1 h3{
+    background-color: aqua;
+
+    }
+    .card2 h3{
+        background-color: #cbdfd0;
+    }
+
+
+.card2{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: right;
+    gap: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #dcf311; 
+}
+
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+
+footer {
+    background-color: seagreen;
+    position: relative;
+    color: white;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
+footer a {
+    color: white;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+}
+#updated {
+    color: lightblue;
+    font-size: 12px;
+}
+#not-reasonable-size {
+    display: none;
+}
+.brk1 {
+    display: none;
+}
+.unBrk1 {
+    display: inline;
+}
+
+
+
+#scroll-down.up {
+    top: calc(100%);
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: seagreen;
+    border-radius: 5px;
+}
