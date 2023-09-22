@@ -19,7 +19,7 @@ header {
 
 header,
 main {
-     min-width: 767px;
+    /* min-width: 767px;*/
 	margin: 0 auto;
 }
 html {

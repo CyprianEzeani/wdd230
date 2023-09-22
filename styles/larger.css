@@ -21,7 +21,16 @@
 		display: none; /* hide hamburger button */
 	}
 	.navigation li{
-		display: block;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 	
 	
