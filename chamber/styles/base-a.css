@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+* {
+    box-sizing: border-box;
+}
+#container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+    
+}
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text color */
+}
+
+header{
+    background-color: #326273;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.header {
+    background-color: #007acc; /* Blue background color */
+    color: #ffffff; /* White text color */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center
+}
+nav a:hover{
+    background-color:rgb(0, 139, 58);
+    color: white;
+}
+nav a{
+    color: rebeccapurple;
+    text-align: left;
+    text-decoration: none;
+    padding: 35px;
+}
+*#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+*/
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.home-title{
+    padding-top: 15px;
+    font-size: 2em;
+    background-color: blue;
+    color: white;
+    font-family:'Rock Salt', Arial, sans-serif;
+    text-align: center;
+
+    
+}
+h4{
+
+    color: rgb(15, 0, 0);
+
+}
+.book, .OrderNow{
+    margin-top: 50px;
+    font-size: 18px;
+    background-color: rgb(12, 35, 243);
+    color:wheat;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px; 
+}
+.book:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.join:hover{
+    background-color: rgb(9, 28, 204);
+    color: white;
+    
+}
+.join, .Contact-Us{
+    text-align: center;
+}
+
+.msg {
+    width: 100%;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #606C38;
+    color: #FEFAE0;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+    
+}
+.msg h2{
+    font-family: 'Rock Salt', Arial, sans-serif;
+}
+
+.msg p{
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 5px 5px 10px gray;
+}
+footer a{
+    background-color:#326273;
+    color: #CFD2B2;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: seagreen;
+    color: white;
+
+}
+footer{
+    margin-top: 200px;
+    padding: 25px 50px;
+    background-color: #326273;
+    color: #FEFAE0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+footer .social img{
+    padding-top: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+.logo{
+    width: 80px;
+    text-align: left;
+    margin: 0 auto;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h4 {
+    color: white;
+}
+div,hero-img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+main section{
+ /*   margin: 200px 0;
+    width: 50%;
+    margin: 0 auto;*/
+    text-align: center;
+
+}
+main section img{
+    box-sizing: border-box;
+}
+
+.card-img{
+    border: 10px solid rgb(9, 4, 77);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+   
+.icon{
+    
+    width: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.deli-crad{
+    grid-column: 1/2;
+     
+}
+.chicken-card{
+    grid-column: 2/3;
+}
+.burger-card{
+    grid-column:3/4;
+}
+
+.combo-card{
+    grid-column: 4/5;
+    
+}
+.beef-card{
+    grid-column: 1/2; 
+}
+.fishing-card{  
+    grid-column: 2/3;
+}
+.droit-card{
+    grid-column: 3/4;
+}
+.macron-card{
+    grid-column: 4/5;
+
+    
+}
+.exquist-card{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+.foodes-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    
+}
+
+footer p{
+    font-size: 1.2em;
+
+}
+footer p a:hover{
+    text-decoration: underline;
+    background-color: #326273;
+    color: #CFD2B2;
+}
+@media screen and (max-width: 768px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    #menu {
+        display: block;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .deli-card, .chicken-card, .burger-card, .combo-card, .beef-card, .fishing-card, .droit-card, .macron-card, .exquist-card, .foodes-card{ 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+#hero-img{
+    width: 100%;
+    height: 800px;
+}

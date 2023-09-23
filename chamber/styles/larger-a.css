@@ -1,0 +1,35 @@
+/* Larger Views ******************************/
+@media (min-width: 769px) {
+	nav ul {
+		display: flex;
+
+	}
+	nav ul li {
+		flex: 1 1 100%;
+
+		
+	}
+	main{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+	main h2 {
+		grid-column: 1 / span 2;
+	}
+
+	#menu {
+		display: none; /* hide hamburger button */
+		background-color: #eee;
+		color: #000;
+	}
+	.navigation li{
+		display: block;
+	}
+	.navigation{
+		display: flex;
+		flex-direction: row; 
+		justify-content: space-between; 
+		align-items: center
+	}
+	
+}
