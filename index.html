@@ -19,10 +19,9 @@
 </head>
 <body>
     <header>
-        <img src="images/otopo.jpg" width="200px" height="300px" alt="Cyprian picture's">
+        <img src="images/otopo.webp" width="200px" height="300px" alt="Cyprian picture's">
         <h1>Cyprian Ezeani</h1>
     </header>
-
     <nav>
        <button id="menu"></button>
         <ul class="navigation">
@@ -32,15 +31,22 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
-
     <main>
+        <div class="hero">
+            <picture>
+              <source srcset="images/Calgary-Albarta-Temple-small.webp" media="(max-width: 450px)">
+              <img src="images/Calgary-Albarta-Temple.jpg" alt="Aba Temple Munset">
+            </picture>
+          <div class="herolabel">
+            <p>Calgary Albarta Temple</p>
+          </div>
         <h2>WDD 230: Web Frontend Development  </h2>
         <section class="card1">
             <h3>Learning Activities</h3>
             <ul>
                 <li><a href="#">Week 01: Layout | Media Query | JS Pen</a></li>
                 <li>Week 02:<a href="week02/design.html">design Principles <a href="/week02/DOM_Manipulation/bom.html">DOM Manipulation</a></a></li>
-                <li>Week 03:<a href="week03/images/lanscape.webp">Webp | <a href="week03/lazyload.html">lazyload | <a href="week03/responsive-image.html">Rresponsive-image | <a href="week03/bom.html">Bom</a></a></a></a></li>
+                <li>Week 03:<a href="week03/images/lanscape.webp">webp | <a href="week03/lazyload.html">lazyload |<a href="week03/responsive-image.html">responsive-images|<a href="week03/bom.html">BOM</a></a></a></a></li>
                 <li>Week 04:<a href="#"></a></li>
                 <li>Week 05:<a href="#"></a></li>
                 <li>Week 06:<a href="#"></a></li>
@@ -51,12 +57,12 @@
             <h3>Information</h3>
             <ul>
                 <li><a href="#">Johannesburg, South Africa</a></li>
-                <li><a href="#"></a>56°F - Sunshine</li>
-                <li><a href="#"></a>Page Visits: 15</li>
-            </ul>
+                <li><a href="#"></a>32°C - Sunshine</li>
+                <p><span class="label">Number of Visits:</span><span class="visits"></span></p>
+            </ul>    
         </section>
-        <div id="scroll-down" class="up">&#8595; Scroll Down &#8595;</div>
         </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d917891.6872366291!2d28.127379399999995!3d-26.01671995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1695835754290!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <footer>
             &copy;<span id="year"></span> |Cyprian Ezeani <span class="brk1"></span><span class="unBrk1">|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Study</a><br>
             <span id="updated"></span>
@@ -65,6 +71,7 @@
         <script src="scripts/getDates.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/darkModes.js"></script>
+        <script src="scripts/local-storage.js"></script>
         
     </body>
 </html>
