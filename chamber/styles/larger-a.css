@@ -1,5 +1,5 @@
 /* Larger Views ******************************/
-@media (min-width: 769px) {
+@media (min-width: 679px) {
 	nav ul {
 		display: flex;
 
@@ -32,4 +32,53 @@
 		align-items: center
 	}
 	
+
+	.home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+	.event{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 100%
+    }
+    .event2{
+        grid-column:1/2;
+        grid-row: 3/4;
+        margin: 20px;
+    }
+	.content1{
+        grid-column: 1/2;
+        margin: 20px;
+    }
+	.calendar{
+        grid-column: 1/2;
+        grid-row:2/3;
+        width: 400px;
+        height: 400px;
+    }
+    #gf1, #gf2, #gf3, #gf4, #gf5, #gf6{
+        grid-column: 2/4;
+		animation: fade 15s;
+		
+    }
+	
+
+	#menu {
+		display: none; /* hide hamburger button */
+
+	}
+	
+	
 }
+
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+

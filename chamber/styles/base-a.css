@@ -315,7 +315,184 @@ footer p a:hover{
     background-color: #326273;
     color: #CFD2B2;
 }
-@media screen and (max-width: 768px) {
+
+
+
+    
+
+body {
+    background-color: #ffffff; /* White background */
+    /*color: #333333; /* Dark gray text color */
+}
+
+header{
+    background-color:#2ecc71;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.header {
+    
+    background-color:#2ecc71;
+    color: #ffffff; /* White text color */
+}
+
+nav {
+    display: flex;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center
+}
+nav a:hover{
+    background-color:#006400;
+    color: #FFFFFF;
+}
+nav a{
+    color: rebeccapurple;
+    text-align: left;
+    text-decoration: none;
+    padding: 35px;
+}                    
+footer p{
+    font-size: 1.2em;
+
+}
+footer p a:hover{
+    text-decoration: underline;
+    background-color: rgb(61, 63, 63);
+    color: #FFFFFF;
+}
+
+#info {
+    padding: 2rem;
+    border-style: solid;
+    margin: 1rem;
+
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+}
+#updated {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+#not-reasonable-size {
+    display: none;
+}
+.brk1 {
+    display: none;
+}
+.unBrk1 {
+    display: inline;
+}
+
+
+
+#scroll-down.up {
+    top: calc(100%);
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color:seagreen;
+    border-radius: 5px;
+}
+
+*{
+    margin: 0;
+}
+
+
+#menu{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    
+    font-size: 30px;
+   
+    color: white;
+}
+.navigation a{
+    display: block;
+    text-decoration: none;
+}
+.navigation a:hover, navigation a:active{
+    color: black;
+    
+}
+.show li{
+    display: block;
+}
+#menu.show::before{
+    content: "X";
+}
+nav ul{
+    list-style-type: none;
+}
+section ul{
+    list-style-type: none;
+}
+nav a {
+    display: block;  
+}
+nav a:hover{
+    border: 1px solid black;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+h1{
+    font-family: 'Trirong';
+    font-size: 30px;
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+h2{
+    font-family: 'Trirong';
+    font-size:25px;
+    font-style: italic;
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+h3{
+    font-family: 'Trirong';
+    font-size:25px;
+    font-style: italic;
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+.calendar{
+    height: 400px;
+    width: 400px;
+    margin: 45px;
+}
+footer{
+    font-family: 'Rubik';
+    font-size: 20px;
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+@media screen and (max-width: 679px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -363,3 +540,8 @@ footer p a:hover{
     width: 100%;
     height: 800px;
 }
+
+h1{
+    text-align: center;
+}
+
