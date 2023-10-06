@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <meta property="og:title" content="Basic Course Portal for WDD230 Assignments">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://alexedozi.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/xmage.jpg" alt="logo_link">
+        </a>
+        <nav>
+            <button id="menu"></button>
+                 <ul class="navigation">
+                     <li><a href="../wdd230/index.html">Home</a></li>
+                     <li><a href="../chamber/index.html">Chamber</a></li>
+                      <li><a href="./discover.html">Discover</a></li>
+                     <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                     <li><a href="../wdd230/form.html">Form</a></li>
+                 </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form id="userForm" method="get" action="record.html">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="[A-Za-z0-9]{8,}">
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                    title="Please enter a valid email address">
+            </div>
+            <div>
+                
+                <hr>
+                
+                <label>Star Rating</label>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+                
+                <hr>
+                
+                <datalist id="l1">
+                    <option>Banana</option>
+                    <option>Cherry</option>
+                    <option>Apple</option>
+                    <option>Strawberry</option>
+                    <option>Lemon</option>
+                    <option>Orange</option>
+                </datalist>
+            </div>
+            <div>
+                <button type="submit">Process My Entry</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> |Cyprian Ezeani <span class="brk1"></span><span class="unBrk1">|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Study</a><br>
+        <span id="updated"></span>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
