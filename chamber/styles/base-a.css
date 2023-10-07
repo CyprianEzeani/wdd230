@@ -2,10 +2,215 @@
 * {
     box-sizing: border-box;
 }
-#container{
-    max-width: 1600px;
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #2ecc71;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+
+/* styles/form.css */
+
+:root {
+    --primary-color: #3498db;
+    --background-color: #f9f9f9;
+    --form-width: 400px;
+    --form-padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #2ecc71;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ... (other CSS rules) ... */
+
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.mainn {
+    display: block;
+   justify-content: space-around;
+    align-items: flex-start;
+    padding: var(--form-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.mainn {
+    max-width: 800px; /* Set a max-width for the mainb section */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: var(--form-width);
+    background-color: #fff;
+    padding: var(--form-padding);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #046baf;
+}
+
+.membership-benefits {
+    
+    text-align: left;
+    
+    
+}
+
+.navigation li{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: space-between; /* You can add other styling properties as needed */
+    align-items: center
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#menu{
+    display: block;
+    text-decoration: none;
+    color: rgb(180, 48, 48);
+}
+
+nav{
+    
+    font-size: 30px;
+   
+    color: #ffffff;
+}
+.logo{
+    width: 80px;
+    text-align: left;
     margin: 0 auto;
 }
+
+.navigation a:hover, navigation a:active{
+    color: black;
+    background-color: #3498db;
+    
+}
+h1 {
+	font-size: 1.75rem;
+	color: navy;
+	border-bottom: 1px solid #bbb;
+}nav {
+	
+    color: #ffffff;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: rgb(25, 148, 25);
+    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+}
+footer {
+    background-color: #2ecc71;
+    position: relative;
+    color: #FFFFFF;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
+
+
 body{
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
@@ -14,21 +219,14 @@ body{
 
     
 }
-body {
-    background-color: #ffffff; /* White background */
-    color: #333333; /* Dark gray text color */
-}
 
 header{
-    background-color: #326273;
+    
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
 }
-.header {
-    background-color: #007acc; /* Blue background color */
-    color: #ffffff; /* White text color */
-}
+
 
 nav {
     display: flex;
@@ -41,8 +239,8 @@ nav {
     align-items: center
 }
 nav a:hover{
-    background-color:rgb(0, 139, 58);
-    color: white;
+    background-color:#006400;
+    color: #FFFFFF;
 }
 nav a{
     color: rebeccapurple;
@@ -50,19 +248,19 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
-*#menu::before {
+#menu::before {
     content: "☰";
 }
 
 #menu.open::before {
     content: "❎";
 }
-*/
+
 .navigation {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: #333;
+	
 	color: #fff;
 }
 .navigation li {
@@ -76,7 +274,7 @@ nav a{
 	color: #fff;
 }
 .navigation li a:hover {
-	background-color: #bbb;
+	
 	color: #333;
 	font-weight: 700;
 }
@@ -116,8 +314,8 @@ nav a{
 .home-title{
     padding-top: 15px;
     font-size: 2em;
-    background-color: blue;
-    color: white;
+    background-color: #2ecc71;
+    color: #FFFFFF;
     font-family:'Rock Salt', Arial, sans-serif;
     text-align: center;
 
@@ -131,20 +329,20 @@ h4{
 .book, .OrderNow{
     margin-top: 50px;
     font-size: 18px;
-    background-color: rgb(12, 35, 243);
-    color:wheat;
+    background-color: #e67e22(Carrot Orenge);
+    color:#ffffff;
     text-align: center;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px; 
 }
 .book:hover{
-    background-color: blue;
-    color: whitesmoke;
+    background-color:#3498db;
+    color: #ffffff;
 }
 .join:hover{
-    background-color: rgb(9, 28, 204);
-    color: white;
+    background-color:#3498db ;
+    color: #ffffff;
     
 }
 .join, .Contact-Us{
@@ -155,8 +353,8 @@ h4{
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color: #606C38;
-    color: #FEFAE0;
+    background-color:#3498db ;
+    color: #ffffff;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
@@ -174,25 +372,18 @@ h4{
     text-align: left;
     box-shadow: 5px 5px 10px gray;
 }
-footer a{
-    background-color:#326273;
-    color: #CFD2B2;
-    text-align: center;
-    text-decoration: none;
-}
+
 footer a:hover{
-    background-color: seagreen;
-    color: white;
+    background-color: #046baf;
+    color:#ffffff;
 
 }
 footer{
     margin-top: 200px;
     padding: 25px 50px;
-    background-color: #326273;
-    color: #FEFAE0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: #2ecc71;
+    color: #FFFFFF;
+    
 
     
 }
@@ -226,7 +417,7 @@ footer .social img{
     margin-top: 100px;
 }
 #hero-msg h4 {
-    color: white;
+    color:#FFFFFF;
 }
 div,hero-img{
     width: 100%;
@@ -245,7 +436,7 @@ main section img{
 }
 
 .card-img{
-    border: 10px solid rgb(9, 4, 77);
+    border: 10px solid rgb(29, 15, 230);
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -265,7 +456,7 @@ main section img{
     margin: 0 auto;
     padding-top: 10px;
 }
-.deli-crad{
+.deli-card{
     grid-column: 1/2;
      
 }
@@ -306,56 +497,6 @@ main section img{
     
 }
 
-footer p{
-    font-size: 1.2em;
-
-}
-footer p a:hover{
-    text-decoration: underline;
-    background-color: #326273;
-    color: #CFD2B2;
-}
-
-
-
-    
-
-body {
-    background-color: #ffffff; /* White background */
-    /*color: #333333; /* Dark gray text color */
-}
-
-header{
-    background-color:#2ecc71;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-.header {
-    
-    background-color:#2ecc71;
-    color: #ffffff; /* White text color */
-}
-
-nav {
-    display: flex;
-}
-.navigation{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between; 
-    align-items: center
-}
-nav a:hover{
-    background-color:#006400;
-    color: #FFFFFF;
-}
-nav a{
-    color: rebeccapurple;
-    text-align: left;
-    text-decoration: none;
-    padding: 35px;
-}                    
 footer p{
     font-size: 1.2em;
 
@@ -417,6 +558,19 @@ footer a:hover {
 *{
     margin: 0;
 }
+.current-event{
+    width: 100%;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color:#2ecc71 ;
+    color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    
+}
 
 
 #menu{
@@ -465,21 +619,21 @@ h1{
     font-family: 'Trirong';
     font-size: 30px;
     background-color: #2ecc71;
-    color: #ffffff;
+    color: white;
 }
 h2{
     font-family: 'Trirong';
     font-size:25px;
     font-style: italic;
     background-color: #2ecc71;
-    color: #ffffff;
+    color: white;
 }
 h3{
     font-family: 'Trirong';
     font-size:25px;
     font-style: italic;
     background-color: #2ecc71;
-    color: #ffffff;
+    color: white;
 }
 .calendar{
     height: 400px;
@@ -489,10 +643,70 @@ h3{
 footer{
     font-family: 'Rubik';
     font-size: 20px;
-    background-color: #e74c3c;
-    color: #ffffff;
+    background-color: #2ecc71;
+    color: #FFFFFF;
 }
-@media screen and (max-width: 679px) {
+
+.event2,
+.content1 {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    grid-column: span 2;
+    background-color:#2ecc71 ; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px;
+}
+/*body {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}*/
+
+.container {
+    grid-column: span 2;
+}
+
+
+.container picture {
+    margin-bottom: 20px; 
+}
+.container section {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2ecc71; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+ 
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -535,7 +749,7 @@ footer{
     footer {
         margin-top: 25px;
     }
-}
+
 #hero-img{
     width: 100%;
     height: 800px;
@@ -544,4 +758,3 @@ footer{
 h1{
     text-align: center;
 }
-

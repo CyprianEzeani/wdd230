@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base-a.css">
+    <link rel="stylesheet" href="styles/larger-a.css">
+    <title>Membership Form</title>
+    <meta property="og:title" content="Basic Course Portal for WDD230 Assignments">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://cyprianezeani.github.io/wdd230/">
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon">
+</head>
+
+<boddy>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/c-simble.jpg" alt="logo_link">
+        </a>
+        <nav>
+            <button id="menu"></button>
+             <ul class="navigation">
+                 <li><a href="../index.html">Home</a></li>
+                 <li><a href="../chamber/index.html">Chamber</a></li>
+                 <li><a href="../chamber/discover.html">Discover</a></li>
+                 <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                 <li><a href="../chamber/join.html">Form</a></li>
+             </ul>
+         </nav>
+    </header>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/brick-layer.jpg" alt="handy product">
+        </div>
+        <section id="hero-msg">
+            <h4></h4>
+            <div class='button-box'>
+                <a class='book' href="../chamber/join.html">join Us</a>
+            </div>
+        </section>
+    </div>
+    
+    <mainn>
+        <h1>Membership Form</h1>
+        <form id="membershipForm" method="get" action="thankyou.html">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div>
+                <label for="title">Title/Position:</label>
+                <input type="text" id="title" name="title" pattern="[A-Za-z -]{7,}">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+            </div>
+            <div>
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="12355589915">
+            </div>
+            <div>
+                <label for="organization">Organization Name:</label>
+                <input type="text" id="organization" name="organization" required>
+            </div>
+            <div>
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="NP">NP Membership (Free)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </div>
+            <div>
+                <label for="description">Organization Description:</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <div>
+                <button type="submit">Process My Application</button>
+            </div>
+        </form>
+        <div class="membership-benefits">
+            <h2>Membership Application Benefits:</h2>
+            <ul>
+                <li>NP Membership: Free membership for non-profit organizations.</li>
+                <li>Bronze Membership: Basic benefits including event discounts.</li>
+                <li>Silver Membership: Enhanced benefits including advertising opportunities.</li>
+                <li>Gold Membership: Premium benefits with exclusive event access and special training sessions.</li>
+            </ul>
+        </div>
+        
+    </mainn>
+    <footer>
+        <p><span class="label">Number of Visits:</span><span class="visits"></span></p>
+        &copy;<span id="year"></span>|<span class="brk1"></span><span class="unBrk1">Cyprian Ezeani|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Study</a><br>
+            <span id="updated"></span>
+    </footer>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/localStorage.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/scriptBurger.js"></script>
+    <script src="scripts/scriptChamber.js"></script>
+    <script src="scripts/scriptDates.js"></script>
+</boddy>
+
+</html>
