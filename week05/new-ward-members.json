@@ -1,0 +1,30 @@
+{
+    "familyName":"Papama",
+    "moveInDate": "October, 2023",
+    "numberInFamily": 4,
+    "visited": true,
+    "members": [
+        {
+            "name":"Aghohare, Papama",
+            "gender":"male",
+            "birthdate":"July 8, 2016"
+        },
+        {
+            "name":"Ashfaq Papama",
+            "gender":"female",
+            "birthdate":"Febuary 16, 1985"
+        },
+        {
+            "name":"Bakatunyingela Papama",
+            "gender":"female",
+            "birthdate":"Apria 27, 2013"
+        },
+        {
+            "name":"Thula Papama",
+            "gender":"male",
+            "birthdate":"July 16, 2017"
+        }
+
+    ]
+
+}
