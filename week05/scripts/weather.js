@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 // Define API URL with your API key and coordinates
-const apiKey = 'e5ebe8a0797e67b19f0e019049a15861'; // Replace 'your_api_key_here' with your actual API key
+const apiKey ='d1ea85587ae1553b1e82d99fdef44216'; // Replace 'your_api_key_here' with your actual API key
 const latitude = '49.75';
 const longitude = '6.64';
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
