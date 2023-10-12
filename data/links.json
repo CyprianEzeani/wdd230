@@ -1,0 +1,97 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Page Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design Principles"
+          },
+          {
+            "url": "week02/DOM_Manipulation/bom.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+        },
+        {  
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/lanscape.webp",
+            "title": "Webp"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazyload"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
+          },
+          {
+            "url":"week03/bom.html",
+            "title":"BOM"
+          }
+      ]
+    },
+    {  
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/anchor.html",
+            "title": "Anchor"
+          },
+          {
+            "url": "week04/images/Screenshot (161).png",
+            "title": "IMages"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"Table Build"
+          },
+          {
+            "url":"week04/form-start/index.html",
+            "title":"Form Start"
+          }
+      ]
+    },
+    {  
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/alexedozi/pen/XWoOjmB",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON File"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Prophets"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather"
+          }
+        ]
+    }
+   
+
+    
+ ]   
+
+}
