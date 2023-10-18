@@ -17,7 +17,7 @@ function showList() {
 	display.classList.remove("grid");
 }
 
-const url='https://quiet-pirate.github.io/wdd230/chamber/data/members.json';
+const url='https://cyprianezeani.github.io/wdd230/chamber/data/members.json';
 
 async function getMembers(){
     const response = await fetch(url);
