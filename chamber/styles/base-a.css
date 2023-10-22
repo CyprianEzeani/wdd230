@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
 }
-
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
@@ -10,99 +9,86 @@ header {
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
-
 /* styles/form.css */
-
 :root {
-    --primary-color: #3498db;
+    --primary-color: #15547e;
     --background-color: #f9f9f9;
     --form-width: 400px;
     --form-padding: 20px;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #f9f9f9;
 }
-
+.hidden{
+    display:none;
+}
+.visible{
+    display: block;
+}
 /* Header and Navigation Styles */
 header {
-    background-color: #2ecc71;
+    background-color: #454545;
     color: #FFFFFF;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .menu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: #FFFFFF;
 	text-align: center;
 }
-
 .menu button {
 	padding: 1rem;
 	font-weight: 700;
 }
-
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #eee;
+	background-color: #FFFFFF;
 }
-
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
-
 .grid section {
 	text-align: center;
 }
-
 .grid img {
-	border: 1px solid #fff;
+	border: 1px solid #FFFFFF;
 	box-shadow: 0 0 10px #333;
 }
-
 .grid section > * {
 	margin: 0.1rem;
 }
-
 .grid h3 {
 	font-family: "Caveat", cursive;
 }
-
 nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
-
 nav a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
-
 /* ... (other CSS rules) ... */
-
-
 h1 {
     color: var(--primary-color);
     text-align: center;
 }
-
 .mainn {
     display: block;
    justify-content: space-around;
@@ -111,33 +97,28 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-    
+}  
 .mainn {
     max-width: 800px; /* Set a max-width for the mainb section */
     width: 100%;
     padding: 20px;
     text-align: center;
 }
-
 form {
     width: var(--form-width);
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: var(--form-padding);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 form div {
     margin-bottom: 20px;
 }
-
 label {
     display: block;
     margin-bottom: 5px;
     color: var(--primary-color);
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -149,28 +130,24 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 button[type="submit"] {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #FFFFFF;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
-
 button[type="submit"]:hover {
-    background-color: #046baf;
+    background-color: #042944;
 }
-
 .membership-benefits {
     
     text-align: left;
     
     
 }
-
 .navigation li{
     display: block;
     flex-direction: row;
@@ -183,20 +160,17 @@ button[type="submit"]:hover {
     justify-content: space-between; /* You can add other styling properties as needed */
     align-items: center
 }
-
 #logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 
 }
-
 #menu{
     display: block;
     text-decoration: none;
     color: rgb(180, 48, 48);
 }
-
 nav{
     
     font-size: 30px;
@@ -208,16 +182,15 @@ nav{
     text-align: left;
     margin: 0 auto;
 }
-
 .navigation a:hover, navigation a:active{
-    color: black;
-    background-color: #3498db;
+    color: #000000;
+    background-color: #67B2E4;
     
 }
 h1 {
 	font-size: 1.75rem;
-	color: navy;
-	border-bottom: 1px solid #bbb;
+	color: #051771;
+	border-bottom: 1px solid #BBBBBB;
 }nav {
 	
     color: #ffffff;
@@ -229,22 +202,22 @@ nav ul {
 }
 nav a {
 	display: block;
-	color: #fff;
+	color: #ffffff;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
 }
 footer a {
-    color: #FFFFFF;
-    text-decoration: underline lightblue;
+    color: #051771;
+    text-decoration: underline #b0b0b0;
     transition: color 0.5s, text-shadow 0.5s;
 }
 footer a:hover {
-    color: rgb(25, 148, 25);
-    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+    color: #051771;
+    text-shadow: 1px 1px 10px #B0B0B0;
 }
 footer {
-    background-color: #2ecc71;
+    background-color: #114b29;
     position: relative;
     color: #FFFFFF;
     padding: 0.75em;
@@ -252,8 +225,6 @@ footer {
     text-align: center;
     z-index: 10;
 }
-
-
 body{
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
@@ -262,15 +233,12 @@ body{
 
     
 }
-
 header{
     
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
 }
-
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -282,7 +250,7 @@ nav {
     align-items: center
 }
 nav a:hover{
-    background-color:#006400;
+    background-color:#114b29;
     color: #FFFFFF;
 }
 nav a{
@@ -294,17 +262,15 @@ nav a{
 #menu::before {
     content: "☰";
 }
-
 #menu.open::before {
     content: "❎";
 }
-
 .navigation {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
 	
-	color: #fff;
+	color: #ffffff;
 }
 .navigation li {
 	display: none;
@@ -314,7 +280,7 @@ nav a{
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 }
 .navigation li a:hover {
 	
@@ -337,8 +303,8 @@ nav a{
 
 .stuff {
 	margin: .5m;
-	border: 1px solid rgba(0,0,0,.1);
-	background-color: #bed;
+	border: 1px solid #FFFFFF;
+	background-color: #114b29;
 	max-width: 580px;
 	height: 100vh;
 	
@@ -357,7 +323,7 @@ nav a{
 .home-title{
     padding-top: 15px;
     font-size: 2em;
-    background-color: #2ecc71;
+    background-color: #13532e;
     color: #FFFFFF;
     font-family:'Rock Salt', Arial, sans-serif;
     text-align: center;
@@ -372,32 +338,31 @@ h4{
 .book, .OrderNow{
     margin-top: 50px;
     font-size: 18px;
-    background-color: #e67e22(Carrot Orenge);
-    color:#ffffff;
+    background-color: #13532e;
+    color:#FFFFFF;
     text-align: center;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px; 
 }
 .book:hover{
-    background-color:#3498db;
-    color: #ffffff;
+    background-color:#13532e;
+    color: #FFFFFF;
 }
 .join:hover{
-    background-color:#3498db ;
-    color: #ffffff;
+    background-color:#13532E;
+    color: #FFFFFF;
     
 }
 .join, .Contact-Us{
     text-align: center;
 }
-
 .msg {
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color:#3498db ;
-    color: #ffffff;
+    background-color:#0C361E;
+    color: #FFFFFF;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
@@ -417,14 +382,14 @@ h4{
 }
 
 footer a:hover{
-    background-color: #046baf;
-    color:#ffffff;
+    background-color: #035287;
+    color:#FFFFFF;
 
 }
 footer{
     margin-top: 200px;
     padding: 25px 50px;
-    background-color: #2ecc71;
+    background-color: #035287;
     color: #FFFFFF;
     
 
@@ -477,7 +442,6 @@ main section{
 main section img{
     box-sizing: border-box;
 }
-
 .card-img{
     border: 10px solid rgb(29, 15, 230);
     width: 100%;
@@ -492,7 +456,6 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
-   
 .icon{
     
     width: 30px;
@@ -509,7 +472,6 @@ main section img{
 .burger-card{
     grid-column:3/4;
 }
-
 .combo-card{
     grid-column: 4/5;
     
@@ -539,7 +501,6 @@ main section img{
     
     
 }
-
 footer p{
     font-size: 1.2em;
 
@@ -549,22 +510,20 @@ footer p a:hover{
     background-color: rgb(61, 63, 63);
     color: #FFFFFF;
 }
-
 #info {
     padding: 2rem;
     border-style: solid;
     margin: 1rem;
 
 }
-
 footer a {
-    color: #ffffff;
-    text-decoration: underline lightblue;
+    color: #FFFFFF;
+    text-decoration: underline #035287;
     transition: color 0.5s, text-shadow 0.5s;
 }
 footer a:hover {
-    color: lightgreen;
-    text-shadow: 1px 1px 10px rgb(216, 219, 209);
+    color: #FFFFFF;
+    text-shadow: 1px 1px 10px #035287;
 }
 #updated {
     color: #FFFFFF;
@@ -579,14 +538,9 @@ footer a:hover {
 .unBrk1 {
     display: inline;
 }
-
-
-
 #scroll-down.up {
     top: calc(100%);
 }
-
-
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -594,10 +548,9 @@ footer a:hover {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color:seagreen;
+    background-color:#035287;
     border-radius: 5px;
 }
-
 *{
     margin: 0;
 }
@@ -605,8 +558,8 @@ footer a:hover {
     width: 100%;
     padding: 35px;
     line-height: 1.5em;
-    background-color:#2ecc71 ;
-    color: #ffffff;
+    background-color:#035287 ;
+    color: #FFFFFF;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
@@ -614,26 +567,23 @@ footer a:hover {
     text-align: right;
     
 }
-
-
 #menu{
     display: block;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
-
 nav{
     
     font-size: 30px;
    
-    color: white;
+    color: #FFFFFF;
 }
 .navigation a{
     display: block;
     text-decoration: none;
 }
 .navigation a:hover, navigation a:active{
-    color: black;
+    color: #000000;
     
 }
 .show li{
@@ -655,28 +605,28 @@ nav a:hover{
     border: 1px solid black;
 }
 .active{
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 h1{
     font-family: 'Trirong';
     font-size: 30px;
-    background-color: #2ecc71;
-    color: white;
+    background-color: #035287;
+    color: #FFFFFF;
 }
 h2{
     font-family: 'Trirong';
     font-size:25px;
     font-style: italic;
-    background-color: #2ecc71;
-    color: white;
+    background-color: #035287;
+    color: #FFFFFF;
 }
 h3{
     font-family: 'Trirong';
     font-size:25px;
     font-style: italic;
-    background-color: #2ecc71;
-    color: white;
+    background-color: #035287;
+    color: #FFFFFF;
 }
 .calendar{
     height: 400px;
@@ -686,13 +636,13 @@ h3{
 footer{
     font-family: 'Rubik';
     font-size: 20px;
-    background-color: #2ecc71;
+    background-color: #035287;
     color: #FFFFFF;
 }
 
 .event2,
 .content1 {
-    background-color: #fff; 
+    background-color: #FFFFFF; 
     padding: 20px;
     border-radius: 10px;
 }
@@ -705,22 +655,14 @@ footer{
 
 footer {
     grid-column: span 2;
-    background-color:#2ecc71 ; 
+    background-color:#035287 ; 
     color: #FFFFFF; 
     text-align: center;
     padding: 10px;
 }
-/*body {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px; 
-}*/
-
 .container {
     grid-column: span 2;
 }
-
-
 .container picture {
     margin-bottom: 20px; 
 }
@@ -729,9 +671,8 @@ footer {
     padding: 20px;
     border-radius: 10px;
 }
-
 footer {
-    background-color: #2ecc71; 
+    background-color: #035287; 
     color: #FFFFFF; 
     text-align: center;
     padding: 10px;
@@ -748,8 +689,8 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-}
- 
+
+    }
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -793,11 +734,10 @@ footer {
         margin-top: 25px;
     }
 
-#hero-img{
+    #hero-img{
     width: 100%;
     height: 800px;
-}
-
-h1{
+    }
+    h1{
     text-align: center;
-}
+    }

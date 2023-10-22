@@ -1,0 +1,40 @@
+{
+    "spotlights":[
+        {
+            "business":"Angie's",
+            "level":"Gold",
+            "message": "Where the locals eat! As it is our tradition, we will be providing free unifying meals to all comerade and law angencies.Thank you for your continuing support."
+        
+        },
+        {
+            "business":"KSM Music",
+            "level":"Bronze",
+            "message":""
+        },
+        {
+            "business":"Bearnson & Cadwell Attorneys",
+            "level":"Silver",
+            "message":""
+        },
+        {
+            "business":"Alpine Cleaning and Restoration",
+            "level":"Gold",
+            "message":""
+        },
+        {
+            "business":"Stokes Nature Center",
+            "level":"Bronze",
+            "message":""
+        },
+        {
+            "business":"Cache Valley Electric",
+            "level":"Silver",
+            "message":""
+        },
+        {
+            "business":"Beaver Mountain SkiArea, Inc.",
+            "level":"Gold",
+            "message":""
+        }
+    ]
+}

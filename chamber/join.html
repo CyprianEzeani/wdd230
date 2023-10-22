@@ -14,7 +14,6 @@
     <meta property="og:url" content="https://cyprianezeani.github.io/wdd230/">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-
 <boddy>
     <header>
         <a id="logo_link" href="index.html">
@@ -31,12 +30,9 @@
              </ul>
          </nav>
     </header>
-    <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/brick-layer.jpg" alt="handy product">
         </div>
-    </div>
-    
     <mainn>
         <h1>Membership Form</h1>
         <form id="membershipForm" method="get" action="thankyou.html">
@@ -67,6 +63,7 @@
             <div>
                 <label for="membershipLevel">Membership Level:</label>
                 <select id="membershipLevel" name="membershipLevel" required>
+                    <option value=""></option>
                     <option value="NP">NP Membership (Free)</option>
                     <option value="Bronze">Bronze Membership</option>
                     <option value="Silver">Silver Membership</option>
@@ -90,15 +87,13 @@
                 <li>Silver Membership: Enhanced benefits including advertising opportunities.</li>
                 <li>Gold Membership: Premium benefits with exclusive event access and special training sessions.</li>
             </ul>
-        </div>
-        
+        </div> 
     </mainn>
     <footer>
         <p><span class="label">Number of Visits:</span><span class="visits"></span></p>
         &copy;<span id="year"></span>|<span class="brk1"></span><span class="unBrk1">Cyprian Ezeani|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Study</a><br>
             <span id="updated"></span>
-    </footer>
-     
+    </footer> 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/localStorage.js"></script>
     <script src="scripts/script.js"></script>
@@ -107,5 +102,4 @@
     <script src="scripts/scriptDates.js"></script>
     <script src="scripts/form.js"></script>
 </boddy>
-
 </html>
