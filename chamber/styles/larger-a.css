@@ -74,11 +74,13 @@
         margin: 20px;
     }
 	
-	.calendar{
+	.calendar-iframe{
         grid-column: 1/2;
         grid-row:2/3;
-        width: 600px;
-        height: 650px;
+        width: 800px;
+        height:600px;
+		border: solid 1px #777;
+		overflow: hidden;
     }
     #gf1, #gf2, #gf3, #gf4, #gf5, #gf6{
        /* grid-column: 2/4;*/

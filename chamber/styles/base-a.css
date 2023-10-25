@@ -725,6 +725,14 @@ footer {
     #background {
         display: none;
     }
+    .calendar-iframe{
+        grid-column: 1/2;
+        grid-row:2/3;
+        width: 800px;
+        height:600px;
+		border: solid 1px #777;
+		overflow: hidden;
+    }
     .msg {
         width: 80%;
         display: block;
